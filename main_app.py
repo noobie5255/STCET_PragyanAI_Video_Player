@@ -4,6 +4,10 @@ from gtts import gTTS
 from io import BytesIO
 
 def main():
+    st.set_page_config(page_title="PragyanAI - VVIET Multimedia Hub", layout="wide")
+    
+ st.title(" PragyanAI Multi-Functional Media Hub")
+    
     # Create Tabs for Video, YouTube, and PDF
     tab1, tab2, tab3 = st.tabs(["📹 Local Video", "📺 YouTube Player", "📄 PDF to Audio"])
 
@@ -69,7 +73,7 @@ if __name__ == "__main__":
     main()
 
 Sateesh Ambesange
-15:10
+15:18
 streamlit>=1.30.0
 PyPDF2
 gTTS
@@ -84,8 +88,8 @@ from io import BytesIO
 
 def main():
     st.set_page_config(page_title="PragyanAI - VVIET Multimedia Hub", layout="wide")
-    
- st.title(" PragyanAI Multi-Functional Media Hub")
+    st.image("PragyanAI_Transperent.png")
+    st.title(" PragyanAI Multi-Functional Media Hub")
     
     # Create Tabs for Video, YouTube, and PDF
     tab1, tab2, tab3 = st.tabs(["📹 Local Video", "📺 YouTube Player", "📄 PDF to Audio"])
