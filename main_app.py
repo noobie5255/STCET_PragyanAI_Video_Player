@@ -4,7 +4,6 @@ from gtts import gTTS
 from io import BytesIO
 
 def main():
-
     # Create Tabs for Video, YouTube, and PDF
     tab1, tab2, tab3 = st.tabs(["📹 Local Video", "📺 YouTube Player", "📄 PDF to Audio"])
 
