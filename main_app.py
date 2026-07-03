@@ -69,8 +69,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-Sateesh Ambesange
-15:18
+
 streamlit>=1.30.0
 PyPDF2
 gTTS
